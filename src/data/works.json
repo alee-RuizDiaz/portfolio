@@ -1,0 +1,62 @@
+[
+  {
+    "photo": "/assets/imgs/works/1.jpg",
+    "photo2": "/assets/imgs/works/1.jpg",
+    "photo3": "/assets/imgs/works/1.jpg",
+    "title": "GeekFolio Portfolio",
+    "categoria": "Landing Page",
+    "link": "",
+    "fecha": "",
+    "cliente": "",
+    "skill": "",
+    "descripcion": "Ejemplo 1"
+  },
+  {
+    "photo": "/assets/imgs/works/2.jpg",
+    "photo2": "",
+    "photo3": "",
+    "title": "GeekFolio Portfolio",
+    "categoria": "Institucional",
+    "link": "",
+    "fecha": "",
+    "cliente": "",
+    "skill": "",
+    "descripcion": "Ejemplo 2"
+  },
+  {
+    "photo": "/assets/imgs/works/2.jpg",
+    "photo2": "",
+    "photo3": "",
+    "title": "GeekFolio Portfolio",
+    "categoria": "e-Commerce",
+    "link": "",
+    "fecha": "",
+    "cliente": "",
+    "skill": "",
+    "descripcion": "Ejemplo 2"
+  },
+  {
+    "photo": "/assets/imgs/works/2.jpg",
+    "photo2": "",
+    "photo3": "",
+    "title": "GeekFolio Portfolio",
+    "categoria": "e-Learning",
+    "link": "",
+    "fecha": "",
+    "cliente": "",
+    "skill": "",
+    "descripcion": "Ejemplo 2"
+  },
+  {
+    "photo": "/assets/imgs/works/2.jpg",
+    "photo2": "",
+    "photo3": "",
+    "title": "GeekFolio Portfolio",
+    "categoria": "Landing Page",
+    "link": "",
+    "fecha": "",
+    "cliente": "",
+    "skill": "",
+    "descripcion": "Ejemplo 2"
+  }
+]

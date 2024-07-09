@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "/assets/imgs/serv-img/landing.png",
+    "title": "LANDING PAGES",
+    "description": "Creación de páginas de aterrizaje optimizadas para conversiones y campañas de marketing."
+  },
+  {
+    "icon": "/assets/imgs/serv-img/2.png",
+    "title": "SITIOS INSTITUCIONALES",
+    "description": "Desarrollo de portales corporativos que reflejan la identidad y valores de tu empresa."
+  },
+  {
+    "icon": "/assets/imgs/serv-img/shop.png",
+    "title": "E-COMMERCE",
+    "description": "Tiendas en línea robustas y seguras que facilitan el comercio electrónico."
+  },
+  {
+    "icon": "/assets/imgs/serv-img/3.png",
+    "title": "E-LEARNING",
+    "description": "Plataformas educativas interactivas para la enseñanza en línea"
+  }
+]

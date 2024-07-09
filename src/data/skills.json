@@ -1,0 +1,42 @@
+[
+  {
+    "photo": "/assets/imgs/resume/html.png",
+    "title": "HTML",
+    "persent": "90%"
+  },
+  {
+    "photo": "/assets/imgs/resume/css.png",
+    "title": "CSS",
+    "persent": "90%"
+  },
+  {
+    "photo": "/assets/imgs/resume/tailwind.png",
+    "title": "TAILWIND",
+    "persent": "80%"
+  },
+  {
+    "photo": "/assets/imgs/resume/js.png",
+    "title": "JAVASCRIPT",
+    "persent": "80%"
+  },
+  {
+    "photo": "/assets/imgs/resume/react.png",
+    "title": "REACT JS",
+    "persent": "80%"
+  },
+  {
+    "photo": "/assets/imgs/resume/s4.png",
+    "title": "WORDPRESS",
+    "persent": "100%"
+  },
+  {
+    "photo": "/assets/imgs/resume/elementor.png",
+    "title": "ELEMENTOR",
+    "persent": "100%"
+  },
+  {
+    "photo": "/assets/imgs/resume/woocommerce.png",
+    "title": "WOOCOMMERCE",
+    "persent": "90%"
+  }
+]
