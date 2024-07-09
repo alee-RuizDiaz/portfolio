@@ -1,14 +1,7 @@
-import React, { useState } from 'react';
-import { Link } from 'react-scroll';
-import { Menu } from 'lucide-react'; // Asegúrate de instalar lucide-react
+import React from 'react';
 
 function NavTop() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-
+  
   return (
     <div className="nav-top pt-30 pb-30">
       <div className="container">
@@ -39,38 +32,9 @@ function NavTop() {
             </div>
           </div>
         </div>
-        <div className="nav-butn" onClick={toggleMenu}>
-          <Menu size={24} />
+        <div className="nav-butn">
+          <span className="pe-7s-menu"></span>
         </div>
-      </div>
-      <div className={`mobile-menu ${menuOpen ? 'open' : ''}`}>
-        <ul className="navbar-movil">
-          <li>
-            <Link to="home" spy={true} smooth={true} onClick={toggleMenu}>
-              <span>SOBRE MI</span>
-            </Link>
-          </li>
-          <li>
-            <Link to="services" spy={true} smooth={true} onClick={toggleMenu}>
-              <span>SERVICIOS</span>
-            </Link>
-          </li>
-          <li>
-            <Link to="skills" spy={true} smooth={true} onClick={toggleMenu}>
-              <span>SKILLS</span>
-            </Link>
-          </li>
-          <li>
-            <Link to="portfolio" spy={true} smooth={true} onClick={toggleMenu}>
-              <span>PROYECTOS</span>
-            </Link>
-          </li>
-          <li>
-            <Link to="contact" spy={true} smooth={true} onClick={toggleMenu}>
-              <span>CONTACTO</span>
-            </Link>
-          </li>
-        </ul>
       </div>
     </div>
   );
