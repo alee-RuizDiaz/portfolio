@@ -399,9 +399,6 @@ img {
   height: 18px;
   stroke: #fff;
   fill: #fff;
-  -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  transform: rotate(-45deg);
   margin-left: 15px;
 }
 
@@ -4748,6 +4745,17 @@ img.left {
   .nav-butn {
     display: block;
   }
+}
+
+.btn-portfolio {
+  padding: 10px 15px 10px 15px;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+.btn-portfolio:hover {
+  border: 1px solid #C876FF;
+  transition: 0.5s;
 }
 
 
