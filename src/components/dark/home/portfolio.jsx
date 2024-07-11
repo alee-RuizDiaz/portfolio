@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import data from '../../../data/works.json'
+import {MoveRight} from 'lucide-react'
 
 function Portfolio() {
   return (
@@ -17,18 +18,9 @@ function Portfolio() {
           <div className="col-lg-6 valign">
             <div className="go-more full-width d-flex justify-content-end">
               <Link to="/proyectos" className="d-flex">
-                <span>
+                <span className='btn-portfolio'>
                   Ver todos los proyectos{' '}
-                  <svg
-                    className="arrow-right"
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlnsXlink="http://www.w3.org/1999/xlink"
-                    x="0px"
-                    y="0px"
-                    viewBox="0 0 34.2 32.3"
-                    xmlSpace="preserve"
-                    style={{ strokeWidth: 2 }}
-                  />
+                  <MoveRight className='arrow-right'/>
                 </span>
               </Link>
             </div>
