@@ -51,11 +51,17 @@ function ProjectView() {
                     </span>
                     <p className='pt-5'>{project.cliente}</p>
                   </li>
+                  <li className="mb-30">
+                    <span className="sub-title">
+                      <i className="fas fa-tools mr-10"></i> Skills Utilizadas:
+                    </span>
+                    <p className='pt-5'>{project.skill}</p>
+                  </li>
                   <li className='d-flex flex-column'>
                     <span className="sub-title">
                       <i className="fas fa-globe mr-10"></i> Website:
                     </span>
-                    <a className='pt-5' href={project.link}>{project.title}</a>
+                    <a className='pt-5' href={project.link} target="_blank" rel="noopener noreferrer">{project.title}</a>
                   </li>
                 </ul>
               </div>
