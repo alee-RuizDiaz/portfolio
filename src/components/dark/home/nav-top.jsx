@@ -1,7 +1,13 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Link } from 'react-scroll';
 
 function NavTop() {
-  
+  const [menuVisible, setMenuVisible] = useState(false);
+
+  const toggleMenu = () => {
+    setMenuVisible(!menuVisible);
+  };
+
   return (
     <div className="nav-top pt-30 pb-30">
       <div className="container">
@@ -32,8 +38,39 @@ function NavTop() {
             </div>
           </div>
         </div>
-        <div className="nav-butn">
-          <span className="pe-7s-menu"></span>
+        <div className="nav-butn" onClick={toggleMenu}>
+          <span className="pe-7s-menu">
+            <i className="fas fa-bars"></i>
+          </span>
+        </div>
+        <div className={`mobile-menu ${menuVisible ? 'open' : ''}`}>
+          <ul className="navbar-nav navbar-movil">
+            <li className="nav-item">
+              <Link to="home" spy={true} smooth={true} onClick={toggleMenu}>
+                <span>Sobre Mi</span>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="services" spy={true} smooth={true} onClick={toggleMenu}>
+                <span>Servicios</span>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="skills" spy={true} smooth={true} onClick={toggleMenu}>
+                <span>Skills</span>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="portfolio" spy={true} smooth={true} onClick={toggleMenu}>
+                <span>Proyectos</span>
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="contact" spy={true} smooth={true} onClick={toggleMenu}>
+                <span>Contacto</span>
+              </Link>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -41,5 +78,7 @@ function NavTop() {
 }
 
 export default NavTop;
+
+
 
 

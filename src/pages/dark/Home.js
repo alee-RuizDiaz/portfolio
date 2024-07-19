@@ -39,8 +39,6 @@ function HomeDark() {
             <Services />
             <Skills />
             <Portfolio />
-            {/*<Testimonials /> */}
-            {/*<Price />*/}
             <Info />
           </section>
         </main>
