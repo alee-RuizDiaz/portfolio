@@ -39,7 +39,7 @@ function NavTop() {
           </div>
         </div>
         <div className="nav-butn" onClick={toggleMenu}>
-          <span className="pe-7s-menu">
+          <span >
             <i className="fas fa-bars"></i>
           </span>
         </div>
