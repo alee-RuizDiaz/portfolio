@@ -17,22 +17,6 @@ $(function () {
     topOffset: 0, // offste (in px) for fixed top navigation
   });
 
-  /* =============================================================================
-    --------------------------------  Navbar Menu   --------------------------------
-    ============================================================================= */
-  /*
-  $('.nav-top').on('click', '.nav-butn', function () {
-    $('.navbar').slideToggle().addClass('active');
-  });
-
-  $('.navbar').on('click', '.nav-item', function () {
-    $('.navbar.active').slideUp();
-  });
-  */
-  /* =============================================================================
-    ------------------------------  Data Background   ------------------------------
-    ============================================================================= */
-
   var pageSection = $('.bg-img, section');
   pageSection.each(function (indx) {
     if ($(this).attr('data-background')) {

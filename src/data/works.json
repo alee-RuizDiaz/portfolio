@@ -8,7 +8,7 @@
     "link": "https://techba.ar/",
     "fecha": "Diciembre 2023",
     "cliente": "Trabajo realizado en Agencia Lader",
-    "skill": "Wordpress, Elementor, Woocommerce",
+    "skill": "Wordpress, Elementor, Woocommerce, CSS",
     "descripcion": "TechBA es un ecommerce especializado en productos Apple, desarrollado con WordPress, Elementor y WooCommerce. Esta plataforma destaca por su diseño intuitivo y funcional, ofreciendo a los clientes una experiencia de compra fluida y agradable. La tienda online presenta una amplia gama de productos Apple. TechBA es un ejemplo de cómo combinar tecnología y diseño para crear una tienda online atractiva y eficiente, brindando a los usuarios una navegación sencilla y segura."
   },
   {
@@ -20,7 +20,7 @@
     "link": "https://bauerberg-klein.com/",
     "fecha": "Octubre 2023",
     "cliente": "Trabajo realizado en Agencia Lader",
-    "skill": "Wordpress, Elementor, Woocommerce, LearnDash",
+    "skill": "Wordpress, Elementor, Woocommerce, LearnDash, HTML, CSS, PHP, JAVASCRIPT",
     "descripcion": "Bauerberg Klein es un innovador proyecto de e-learning desarrollado con LearnDash, enfocado en la industria de Exploración y Producción Petrolera, así como en el sector minero. Esta empresa ofrece una amplia gama de servicios de capacitación, asesoría y mentorías, incluyendo cursos técnicos y gestión por competencias. Además, brindan asesoramiento técnico, mentorías gerenciales y apoyo a equipos de trabajo. La plataforma e-learning de Bauerberg Klein está diseñada para proporcionar formación especializada y accesible, optimizando el desarrollo profesional y las competencias de los participantes en estos sectores industriales."
   },
   {
@@ -32,7 +32,7 @@
     "link": "https://17restaurant.com/",
     "fecha": "Octubre 2023",
     "cliente": "Trabajo realizado en Agencia Lader",
-    "skill": "Wordpress, Elementor",
+    "skill": "Wordpress, Elementor, CSS",
     "descripcion": "17 Restaurant, un prestigioso establecimiento en Miami, necesitaba una página web multifuncional que facilitara tanto la gestión de reservas como la presentación de su variado menú. Se desarrolló una plataforma intuitiva y elegante, optimizada para que los clientes pudieran realizar reservas fácilmente y explorar todos los platos que ofrece el restaurante. El resultado es una herramienta integral que mejora la experiencia del cliente y fortalece la presencia en línea de 17 Restaurant."
   },
   {
@@ -44,7 +44,7 @@
     "link": "https://gerliqjmotor.com.ar/",
     "fecha": "Mayo 2024",
     "cliente": "Trabajo realizado en Agencia Lader",
-    "skill": "Wordpress, Elementor",
+    "skill": "Wordpress, Elementor, CSS",
     "descripcion": "Gerli QJ es una concesionaria especializada en motos QJ, enfocada en brindar una experiencia de compra única y segura. Con más de 40 años de trayectoria, su compromiso es ofrecer todas las herramientas y servicios necesarios para ayudar a los clientes a elegir la moto perfecta."
   },
   {
@@ -56,7 +56,43 @@
     "link": "https://liwisagency.com/",
     "fecha": "Agosto 2023",
     "cliente": "Trabajo realizado en Agencia Lader",
-    "skill": "Wordpress, Elementor",
+    "skill": "Wordpress, Elementor, HTML, CSS",
     "descripcion": "Liwis Agency, una prestigiosa empresa de Miami que ofrece servicios de personal para eventos de alto nivel, necesitaba una web que centralizara todas sus ofertas. Se desarrolló una plataforma multilenguaje que canaliza todas sus solicitudes y presenta sus servicios de manera atractiva y organizada. Esta web permite a Liwis Agency mostrar su amplia gama de servicios de forma clara y accesible, facilitando a los clientes encontrar exactamente lo que necesitan para sus eventos exclusivos."
+  },
+  {
+    "photo": "/assets/imgs/works/Dra/1.png",
+    "photo2": "/assets/imgs/works/Dra/2.png",
+    "photo3": "/assets/imgs/works/Dra/3.png",
+    "title": "Dra Ariane Alvarez",
+    "categoria": "Institucional",
+    "link": "https://draarianealvarez.com.ar/",
+    "fecha": "Abril 2024",
+    "cliente": "Trabajo realizado en Agencia Lader",
+    "skill": "Wordpress, Elementor, HTML, CSS",
+    "descripcion": "Desarrollé el sitio web oficial de la Dra. Ariane Álvarez, una clínica de estética especializada en tratamientos faciales y corporales, tanto médicos como no médicos. La web, creada en WordPress con Elementor, tiene como objetivo principal mostrar todos los tratamientos disponibles y permitir a los clientes reservar citas fácilmente. El diseño intuitivo y moderno garantiza una experiencia de usuario fluida, facilitando la navegación y el acceso a la información sobre los servicios ofrecidos."
+  },
+  {
+    "photo": "/assets/imgs/works/RealBillion/1.png",
+    "photo2": "/assets/imgs/works/RealBillion/2.png",
+    "photo3": "/assets/imgs/works/RealBillion/3.png",
+    "title": "Real Billion",
+    "categoria": "Institucional",
+    "link": "https://realbillion.com.ar/",
+    "fecha": "Marzo 2024",
+    "cliente": "Trabajo realizado en Agencia Lader",
+    "skill": "Wordpress, Elementor, HTML, CSS",
+    "descripcion": "Real Billion es una empresa líder en el desarrollo, gerenciamiento y ejecución de proyectos de inversión inmobiliaria. Nuestro sitio web, conectado a la plataforma Tokko, ofrece una experiencia completa para explorar propiedades en venta y alquiler. Con una interfaz intuitiva y funcional, los usuarios pueden buscar y ver detalles de las propiedades disponibles, facilitando el proceso de toma de decisiones para inversores y clientes interesados en el mercado inmobiliario."
+  },
+  {
+    "photo": "/assets/imgs/works/Tecnopolis46/1.png",
+    "photo2": "/assets/imgs/works/Tecnopolis46/2.png",
+    "photo3": "/assets/imgs/works/Tecnopolis46/3.png",
+    "title": "Tecnopolis46",
+    "categoria": "Landing Page",
+    "link": "https://tecnopolis46.com/",
+    "fecha": "Marzo 2024",
+    "cliente": "Trabajo realizado en Agencia Lader",
+    "skill": "Wordpress, Elementor, CSS",
+    "descripcion": "Desarrollé la landing page de Tecnopolis46, una empresa especializada en la reparación y mantenimiento de iPhones, así como en la venta de accesorios de Apple. Utilizando WordPress con Elementor, creé una página optimizada y atractiva que facilita la navegación y la búsqueda de información. El diseño enfocado en la experiencia del usuario permite a los clientes acceder rápidamente a los servicios y productos que necesitan, asegurando una comunicación clara y efectiva sobre las ofertas de Tecnopolis46."
   }
 ]
