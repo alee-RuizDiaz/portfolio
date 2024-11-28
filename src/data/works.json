@@ -1,5 +1,17 @@
 [
   {
+    "photo": "/assets/imgs/works/Mojito/1.png",
+    "photo2": "/assets/imgs/works/Mojito/2.png",
+    "photo3": "/assets/imgs/works/Mojito/3.png",
+    "title": "Mojito Media",
+    "categoria": "Institucional",
+    "link": "https://mojitomedia.mx/",
+    "fecha": "Noviembre 2024",
+    "cliente": "Trabajo realizado en Agencia Lader",
+    "skill": "Wordpress, Elementor, CSS, JavaScript",
+    "descripcion": "Para Mojito Media, una agencia de marketing con visión estratégica en Imagen Pública, desarrollé un sitio web completamente personalizado. Utilicé WordPress, Elementor, CSS y JavaScript para crear un diseño único que refleja su identidad y resalta su experiencia en comunicación, mercadotecnia y diseño digital. Mi objetivo fue plasmar su creatividad y compromiso, logrando una web que se adapta perfectamente a las necesidades de sus clientes."
+  },
+  {
     "photo": "/assets/imgs/works/TechBA/Tech-1.png",
     "photo2": "/assets/imgs/works/TechBA/Tech-2.png",
     "photo3": "/assets/imgs/works/TechBA/Tech-3.png",
