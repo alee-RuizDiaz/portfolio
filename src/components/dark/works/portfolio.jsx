@@ -1,19 +1,37 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import data from '../../../data/works.json';
-import { ArrowLeft } from 'lucide-react';
+import { ArrowLeft, ChevronLeft, ChevronRight } from 'lucide-react';
+import './pagination.css';
 
 function Portfolio() {
   const [selectedCategory, setSelectedCategory] = useState('Todos');
+  const [currentPage, setCurrentPage] = useState(1);
+  const [paginatedData, setPaginatedData] = useState([]);
+  const itemsPerPage = 6;
 
   const categories = ['Todos', ...new Set(data.map(item => item.categoria))];
 
   const filteredData = selectedCategory === 'Todos'
     ? data
     : data.filter(item => item.categoria === selectedCategory);
+    
+  const totalPages = Math.ceil(filteredData.length / itemsPerPage);
 
   const handleCategoryChange = (e) => {
     setSelectedCategory(e.target.value);
+    setCurrentPage(1); // Reset to first page when category changes
+  };
+  
+  useEffect(() => {
+    const startIndex = (currentPage - 1) * itemsPerPage;
+    const endIndex = startIndex + itemsPerPage;
+    setPaginatedData(filteredData.slice(startIndex, endIndex));
+  }, [filteredData, currentPage]);
+  
+  const handlePageChange = (pageNumber) => {
+    setCurrentPage(pageNumber);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   return (
@@ -52,7 +70,7 @@ function Portfolio() {
       </div>
       <div className="gallery">
         <div className="row">
-          {filteredData.map((item, index) => (
+          {paginatedData.map((item, index) => (
             <div key={index} className="col-lg-6 items">
               <div className="item mt-50">
                 <div className="img">
@@ -93,6 +111,36 @@ function Portfolio() {
           ))}
         </div>
       </div>
+      
+      {totalPages > 1 && (
+        <div className="pagination-container mt-50 text-center">
+          <button 
+            className="pagination-button" 
+            onClick={() => handlePageChange(currentPage - 1)} 
+            disabled={currentPage === 1}
+          >
+            <ChevronLeft size={20} />
+          </button>
+          
+          {Array.from({ length: totalPages }, (_, i) => i + 1).map(pageNumber => (
+            <button
+              key={pageNumber}
+              className={`pagination-number ${pageNumber === currentPage ? 'active' : ''}`}
+              onClick={() => handlePageChange(pageNumber)}
+            >
+              {pageNumber}
+            </button>
+          ))}
+          
+          <button 
+            className="pagination-button" 
+            onClick={() => handlePageChange(currentPage + 1)} 
+            disabled={currentPage === totalPages}
+          >
+            <ChevronRight size={20} />
+          </button>
+        </div>
+      )}
     </div>
   );
 }

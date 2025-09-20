@@ -1,8 +1,8 @@
 import './App.css';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import HomeDark from './pages/dark/Home';
-import Works from './pages/dark/works';
-import SingleProject from './pages/dark/single-project';
+import HomeDark from './pages/dark/Home.jsx';
+import Works from './pages/dark/works.jsx';
+import SingleProject from './pages/dark/single-project.jsx';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop';
 
 function App() {
