@@ -23,8 +23,10 @@ dist-ssr
 *.sln
 *.sw?
 
-# Build
-/build
+# Build outputs
+dist/
+build/
+node_modules/
 
 # Environment variables
 .env

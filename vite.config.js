@@ -9,9 +9,9 @@ export default defineConfig({
       '@': resolve(__dirname, 'src'),
     },
   },
-  build: {
-    outDir: 'build',
-  },
+  // build: {
+  //   outDir: 'build',
+  // },
   server: {
     port: 3000,
     open: true,
